@@ -83,5 +83,5 @@ body {
 
 /* ძიების ფოტოს ჰოვერი */
 .header-search img:hover {
-  filter: brightness(0) saturate(100%) invert(35%) sepia(61%) saturate(2101%) hue-rotate(154deg) brightness(96%) contrast(90%);
+ opacity: 0.8;
 }
