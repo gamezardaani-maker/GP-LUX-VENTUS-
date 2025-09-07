@@ -172,6 +172,95 @@ boydy {
   height: 72px;
 }
 
+
+/* აქედან დაიწყო topics css */
+
+/* მთლიანი სექცია */
+.topics-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+/* სექციის სათაური */
+.topics-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  margin-top: 55px;
+  text-align: left;
+  font-family: poppins, sans-serif;
+  margin-left: -20px;
+}
+
+/* ბარათების კონტეინერი */
+.topics-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  font-family: poppins, sans-serif;
+  margin-left: -130px;
+  margin-right: -100px;
+}
+
+/* თითოეული ბარათი */
+.topic-card {
+  background-color: white;
+  width: 204px;
+  height: 291px;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin: 10px;
+}
+
+/* აიქონის სტილი */
+.topic-icon img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+/* თემის სახელი */
+.topic-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: poppins, sans-serif;
+}
+
+/* ღილაკი */
+.view-more-btn {
+  background-color: #00DED8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: poppins, sans-serif;
+}
+
+.topic-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(8, 100, 128, 0.4);
+  border: 2px solid #504d4d;
+}
+
+.view-more-btn:hover {
+  border: 2px solid #095259;
+}
   
 
  
