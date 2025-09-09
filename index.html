@@ -1,122 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GP-LUX-VENTUS-</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-    <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- ჰედერი -->
-  <header class="site-header">
-     <div class="container">
+    <header class="site-header">
+      <div class="container">
+        <!-- ლოგოს ფოტო -->
+        <div class="logo">
+          <img src="assets/logo.png" alt="Lux Ventus Logo" />
+        </div>
 
-    <!-- აქ ლოგოს ფოტო ჩავსვი  -->
-    <div class="logo">
-      <img src="assets/logo.png" alt="Lux Ventus Logo" />
-    </div>
+        <!-- ნავიგაციის ელემენტები -->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Spiritual</a></li>
+            <li><a href="#">Mental Health</a></li>
+            <li><a href="#" class="contact-link">Contact Us</a></li>
+          </ul>
+        </nav>
 
-    <!-- აქ ნავიგაციის ყველა ელემენტია -->
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#">Fashion</a></li>
-        <li><a href="#">Lifestyle</a></li>
-        <li><a href="#">Spiritual</a></li>
-        <li><a href="#">Mental Health</a></li>
-        <li><a href="#" class="contact-link">Contact Us</a></li> <!-- Contact Us აქ -->
-      </ul>
-    </nav>
-
-    <!-- ძიების ფოტოც ჩასმულია -->
-    <div class="header-search">
-      <img src="assets/header search.png" alt="Search Icon" />
-    </div> 
-</header>
-</head>
-
-   <!--აქედან იწყება მთავარი გვერდი-->
-<body>
-<main>
-<div class="hero-container">
-  <img src="assets/first main photo.png" alt="Fashion woman" class="hero-image" />
-  <div class="hero-text">
-    <div class="magazine-label">LUX VENTUS MAGAZINE</div>
-    <h1>We Are the <span class="highlight">Ventus Fashion</span></h1>
-    <p>We like to gossip about everything, but we will never forget the daily fashion dose.</p>
-  </div>
-</div>
-
-  <!--ეს არის topics სექციის დასაწყისი-->
-  
-  <section class="topics-section">
-  <div class="topics-title">Topics</div>
-
-  <div class="topics-container">
-
-    <!-- ბარათი 1 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Lingerie.png" alt="Lingerie">
+        <!-- ძიების ხატულა -->
+        <div class="header-search">
+          <img src="assets/header search.png" alt="Search Icon" />
+        </div>
       </div>
-      <div class="topic-name">Lingerie</div>
-      <button class="view-more-btn">View More</button>
-    </div>
+    </header>
 
-    <!-- ბარათი 2 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Spring.png" alt="Spring">
+    <!-- მთავარი გვერდი -->
+    <main>
+      <div class="hero-container">
+        <img
+          src="assets/first main photo.png"
+          alt="Fashion woman"
+          class="hero-image"
+        />
+        <div class="hero-text">
+          <div class="magazine-label">LUX VENTUS MAGAZINE</div>
+          <h1>We Are the <span class="highlight">Ventus Fashion</span></h1>
+          <p>
+            We like to gossip about everything, but we will never forget the
+            daily fashion dose.
+          </p>
+        </div>
       </div>
-      <div class="topic-name">Spring</div>
-      <button class="view-more-btn">View More</button>
-    </div>
 
-    <!-- ბარათი 3 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Yoga.png" alt="Yoga">
-      </div>
-      <div class="topic-name">Yoga</div>
-      <button class="view-more-btn">View More</button>
-    </div>
+      <!-- Topics სექცია -->
+      <section class="topics-section">
+        <div class="topics-title">Topics</div>
+        <div class="topics-container">
+          <!-- ბარათი 1 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Lingerie.png" alt="Lingerie" />
+            </div>
+            <div class="topic-name">Lingerie</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
 
-    <!-- ბარათი 4 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Glow.png" alt="Glow">
-      </div>
-      <div class="topic-name">Glow</div>
-      <button class="view-more-btn">View More</button>
-    </div>
+          <!-- ბარათი 2 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Spring.png" alt="Spring" />
+            </div>
+            <div class="topic-name">Spring</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
 
-    <!-- ბარათი 5 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Ensembles.png" alt="Ensembles">
-      </div>
-      <div class="topic-name">Ensembles</div>
-      <button class="view-more-btn">View More</button>
-    </div>
+          <!-- ბარათი 3 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Yoga.png" alt="Yoga" />
+            </div>
+            <div class="topic-name">Yoga</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
 
-    <!-- ბარათი 6 -->
-    <div class="topic-card">
-      <div class="topic-icon">
-        <img src="assets/Topics/Skin Care.png" alt="Skin Care">
-      </div>
-      <div class="topic-name">Skin Care</div>
-      <button class="view-more-btn">View More</button>
-    </div>
+          <!-- ბარათი 4 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Glow.png" alt="Glow" />
+            </div>
+            <div class="topic-name">Glow</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
 
-  </div>
-</section>
+          <!-- ბარათი 5 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Ensembles.png" alt="Ensembles" />
+            </div>
+            <div class="topic-name">Ensembles</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
 
+          <!-- ბარათი 6 -->
+          <div class="topic-card">
+            <div class="topic-icon">
+              <img src="assets/Topics/Skin Care.png" alt="Skin Care" />
+            </div>
+            <div class="topic-name">Skin Care</div>
+            <button class="view-more-btn" type="button">View More</button>
+          </div>
+        </div>
+      </section>
 
-</main>
+      <section class="second-section">
+        <div class="fashion-container">
+          <img
+            class="fashion-image"
+            src="./assets/second main photo.png"
+            alt="Fashion Image"
+          />
+          <div class="main-wrapper">
+            <div class="wrapper-one">
+              <img
+                class="avatar"
+                src="./assets/1-2 trending.png"
+                alt="Avatar"
+              />
+              <h1 class="avatar-title">Mallory Reyn</h1>
+            </div>
+            <div class="wrapper-two">
+              <h1 class="avatar-date">April 14th, 2023</h1>
+              <p class="coming-in-hot">COMING IN HOT!</p>
+            </div>
+          </div>
+          <h1 class="fashion-title">
+            The Latest Trends from the Moon Fashion Week.
+          </h1>
+          <p class="fashion-title-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
+            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+            vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum.
+          </p>
+          <div class="read-more-container">
+            <svg
+              class="arrow"
+              width="51"
+              height="39"
+              viewBox="0 0 51 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                stroke="#4CE0D7"
+                stroke-width="2.3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1 class="read-more">READ MORE</h1>
+          </div>
+        </div>
+        <div class="fashion-button">
+          <h1 class="fashion-button-text">FASHION</h1>
+        </div>
+      </section>
+      <section class="section-three">
+        <!-- <h1 class="trending">Trending</h1> -->
+        <div class="cards-wrapper">
+          <div class="card-one">
+            <img
+              class="card-one-image"
+              src="./assets/Trending 1/LIFESTYLE.png"
+              alt="Lifestyle"
+            />
+            <div class="card-one-wrapper">
+              <div class="card-avatar-container">
+                <img
+                  class="card-avatar"
+                  src="./assets/1-2 trending.png"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="card-avatar-text-wrapper">
+                <h1 class="card-avatar-title">Mallory Reyn</h1>
+                <h1 class="card-avatar-date">April 14th, 2023</h1>
+              </div>
+            </div>
+            <h1 class="card-one-title">
+              10 Things to help you with social stress.
+            </h1>
+            <p class="card-one-paragraph">
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+              augue. Vestibulum.
+            </p>
+            <div class="card-one-read-more-container">
+              <svg
+                class="card-one-arrow"
+                width="51"
+                height="39"
+                viewBox="0 0 51 39"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                  stroke="#4CE0D7"
+                  stroke-width="2.3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h1 class="card-one-read-more">READ MORE</h1>
+            </div>
+            <div class="Lifestyle button">
+              <h1 class="fashion-button-text">LIFESTYLE</h1>
+            </div>
+          </div>
+          <div class="card-one">
+            <img
+              class="card-one-image"
+              src="./assets/Trending 1/SUMMER.png"
+              alt="Lifestyle"
+            />
+            <div class="card-one-wrapper">
+              <div class="card-avatar-container">
+                <img
+                  class="card-avatar"
+                  src="./assets/1-2 trending.png"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="card-avatar-text-wrapper">
+                <h1 class="card-avatar-title">Mallory Reyn</h1>
+                <h1 class="card-avatar-date">April 14th, 2023</h1>
+              </div>
+            </div>
+            <h1 class="card-two-title">
+              The summer 2023 lineup is finally here.
+            </h1>
+            <p class="card-two-paragraph">
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+              augue. Vestibulum.
+            </p>
+            <div class="card-one-read-more-container">
+              <svg
+                class="card-one-arrow"
+                width="51"
+                height="39"
+                viewBox="0 0 51 39"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                  stroke="#4CE0D7"
+                  stroke-width="2.3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h1 class="card-one-read-more">READ MORE</h1>
+            </div>
+            <div class="summer button">
+              <h1 class="fashion-button-text">SUMMER</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="section-four-card onee">
+          <div class="card-one-wrapper">
+            <div class="image-cont">
+              <img
+                class="fshn"
+                src="./assets/Trending 2/Fashion.png"
+                alt="Fashion"
+              />
+            </div>
+            <div class="content-cont">
+              <div class="content-wrapper">
+                <img
+                  class="avtr"
+                  src="./assets/1-2 trending.png"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="content-wrapper-two">
+                <h1 class="content-title">Mallory Reyn</h1>
+                <h1 class="content-date">April 14th. 2023</h1>
+              </div>
+            </div>
+          </div>
+          <div class="content-navigation">
+            <h1 class="content-main-title">
+              5 Reasons to avoid shopping on saturdays
+            </h1>
+            <p class="content-main-paragraph">
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis tellus. Nullam quis imperdiet augue.
+              Vestibulum.
+            </p>
+          </div>
+          <div class="read-more-container third">
+            <svg
+              class="arrow"
+              width="51"
+              height="39"
+              viewBox="0 0 51 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                stroke="#4CE0D7"
+                stroke-width="2.3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1 class="read-more">READ MORE</h1>
+          </div>
+          <div class="fashionn button">
+            <h1 class="fashion-button-text">FASHION</h1>
+          </div>
+        </div>
+        <div class="section-four-card twoo">
+          <div class="card-one-wrapper">
+            <div class="image-cont">
+              <img
+                class="fshn"
+                src="./assets/Trending 1/ENSEMBLES (2).png"
+                alt="Fashion"
+              />
+            </div>
+            <div class="content-cont">
+              <div class="content-wrapper">
+                <img
+                  class="avtr"
+                  src="./assets/1-2 trending.png"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="content-wrapper-two">
+                <h1 class="content-title">Mallory Reyn</h1>
+                <h1 class="content-date">April 14th. 2023</h1>
+              </div>
+            </div>
+          </div>
+          <div class="content-navigation">
+            <h1 class="content-main-title second">
+              10 Brands that remained faithful to your classy look.
+            </h1>
+            <p class="content-main-paragraph">
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+              augue. Vestibulum.
+            </p>
+          </div>
+          <div class="read-more-container third">
+            <svg
+              class="arrow"
+              width="51"
+              height="39"
+              viewBox="0 0 51 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                stroke="#4CE0D7"
+                stroke-width="2.3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1 class="read-more">READ MORE</h1>
+          </div>
+          <div class="ensembles button">
+            <h1 class="fashion-button-text">ENSEMBLES</h1>
+          </div>
+        </div>
+        <div class="section-four-card threee">
+          <div class="card-one-wrapper">
+            <div class="image-cont">
+              <img
+                class="fshn"
+                src="./assets/Trending 2/MENTAL HEALTH.png"
+                alt="Fashion"
+              />
+            </div>
+            <div class="content-cont">
+              <div class="content-wrapper">
+                <img
+                  class="avtr"
+                  src="./assets/1-2 trending.png"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="content-wrapper-two">
+                <h1 class="content-title">Mallory Reyn</h1>
+                <h1 class="content-date">April 14th. 2023</h1>
+              </div>
+            </div>
+          </div>
+          <div class="content-navigation">
+            <h1 class="content-main-title three">
+              Mental health tips to cope with stress.
+            </h1>
+            <p class="content-main-paragraph">
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis tellus. Nullam quis imperdiet augue.
+              Vestibulum.
+            </p>
+          </div>
+          <div class="read-more-container third">
+            <svg
+              class="arrow"
+              width="51"
+              height="39"
+              viewBox="0 0 51 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.125 19.5L14.875 19.5M36.125 19.5L27.625 26M36.125 19.5L27.625 13"
+                stroke="#4CE0D7"
+                stroke-width="2.3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1 class="read-more">READ MORE</h1>
+          </div>
+          <div class="mental button">
+            <h1 class="fashion-button-text health">MENTAL HEALTH</h1>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo-container">
+            <img class="footer-logo" src="./assets/logo.png" alt="Logo" />
+          </div>
+          <div class="footer-text-container">
+            <h1 class="footer-text">Let's Hang out</h1>
+            <div class="footer-icons">
+              <svg
+                class="facebook"
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 15.5C0 6.93959 6.93959 0 15.5 0C24.0604 0 31 6.93959 31 15.5C31 24.0604 24.0604 31 15.5 31C6.93959 31 0 24.0604 0 15.5ZM15.5 7.75C19.7625 7.75 23.25 11.2375 23.25 15.5C23.25 19.375 20.4406 22.6687 16.5656 23.25V17.7281H18.4062L18.7937 15.5H16.6625V14.0469C16.6625 13.4656 16.9531 12.8844 17.9219 12.8844H18.8906V10.9469C18.8906 10.9469 18.0188 10.7531 17.1469 10.7531C15.4031 10.7531 14.2406 11.8187 14.2406 13.7562V15.5H12.3031V17.7281H14.2406V23.1531C10.5594 22.5719 7.75 19.375 7.75 15.5C7.75 11.2375 11.2375 7.75 15.5 7.75Z"
+                  fill="#4CE0D7"
+                />
+              </svg>
 
+              <svg
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 15.5C0 6.93959 6.93959 0 15.5 0C24.0604 0 31 6.93959 31 15.5C31 24.0604 24.0604 31 15.5 31C6.93959 31 0 24.0604 0 15.5ZM21.4094 11.1406C22.0875 11.0437 22.6687 10.9469 23.25 10.6562C22.8625 11.3344 22.2812 11.9156 21.6031 12.3031C21.7969 16.8562 18.5031 21.7969 12.5938 21.7969C10.85 21.7969 9.20312 21.2156 7.75 20.3438C9.39687 20.5375 11.1406 20.0531 12.3031 19.1812C10.85 19.1812 9.6875 18.2125 9.3 16.9531C9.78438 17.05 10.2688 16.9531 10.7531 16.8562C9.3 16.4688 8.23438 15.1125 8.23438 13.6594C8.71875 13.8531 9.20312 14.0469 9.6875 14.0469C8.33125 13.0781 7.84688 11.2375 8.71875 9.78438C10.3656 11.7219 12.6906 12.9812 15.3063 13.0781C14.8219 11.1406 16.3719 9.20312 18.4062 9.20312C19.2781 9.20312 20.15 9.59062 20.7312 10.1719C21.5062 9.97813 22.1844 9.78437 22.7656 9.39687C22.5719 10.1719 22.0875 10.7531 21.4094 11.1406Z"
+                  fill="#4CE0D7"
+                />
+              </svg>
 
-</body>
+              <svg
+                width="32"
+                height="31"
+                viewBox="0 0 32 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 15.5C0 6.93959 7.16344 0 16 0C24.8366 0 32 6.93959 32 15.5C32 24.0604 24.8366 31 16 31C7.16344 31 0 24.0604 0 15.5ZM8.2 12.8844V23.25H11.6V12.8844H8.2ZM8 9.59063C8 10.6562 8.8 11.4313 9.9 11.4313C11 11.4313 11.8 10.6562 11.8 9.59063C11.8 8.525 11 7.75 9.9 7.75C8.9 7.75 8 8.525 8 9.59063ZM20.6 23.25H23.8V16.8563C23.8 13.6594 21.8 12.5938 19.9 12.5938C18.2 12.5938 17 13.6594 16.7 14.3375V12.8844H13.5V23.25H16.9V17.7281C16.9 16.275 17.9 15.5 18.9 15.5C19.9 15.5 20.6 15.9844 20.6 17.6312V23.25Z"
+                  fill="#4CE0D7"
+                />
+              </svg>
+              <svg
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.0188 15.5L13.95 13.175V17.825L18.0188 15.5Z"
+                  fill="#4CE0D7"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 15.5C0 6.93959 6.93959 0 15.5 0C24.0604 0 31 6.93959 31 15.5C31 24.0604 24.0604 31 15.5 31C6.93959 31 0 24.0604 0 15.5ZM21.5063 10.3656C22.1844 10.5594 22.6688 11.0438 22.8625 11.7219C23.25 12.9813 23.25 15.5 23.25 15.5C23.25 15.5 23.25 18.0188 22.9594 19.2781C22.7656 19.9563 22.2812 20.4406 21.6031 20.6344C20.3437 20.925 15.5 20.925 15.5 20.925C15.5 20.925 10.5594 20.925 9.39687 20.6344C8.71875 20.4406 8.23438 19.9563 8.04063 19.2781C7.75 18.0188 7.75 15.5 7.75 15.5C7.75 15.5 7.75 12.9813 7.94375 11.7219C8.1375 11.0438 8.62188 10.5594 9.30001 10.3656C10.5594 10.075 15.4031 10.075 15.4031 10.075C15.4031 10.075 20.3438 10.075 21.5063 10.3656Z"
+                  fill="#4CE0D7"
+                />
+              </svg>
+              <svg
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5 18.2125C14.0469 18.2125 12.7875 17.05 12.7875 15.5C12.7875 14.0469 13.95 12.7875 15.5 12.7875C16.9531 12.7875 18.2125 13.95 18.2125 15.5C18.2125 16.9531 16.9531 18.2125 15.5 18.2125Z"
+                  fill="#4CE0D7"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18.7937 8.9125H12.2063C11.4313 9.00937 11.0438 9.10625 10.7531 9.20312C10.3656 9.3 10.075 9.49375 9.78438 9.78437C9.55441 10.0143 9.44575 10.2443 9.31442 10.5223C9.27981 10.5955 9.24353 10.6723 9.20312 10.7531C9.18814 10.7981 9.17083 10.8454 9.15229 10.896C9.05094 11.1729 8.9125 11.5511 8.9125 12.2062V18.7937C9.00938 19.5687 9.10625 19.9562 9.20312 20.2469C9.3 20.6344 9.49375 20.925 9.78438 21.2156C10.0143 21.4456 10.2443 21.5542 10.5223 21.6856C10.5956 21.7202 10.6723 21.7564 10.7531 21.7969C10.7981 21.8119 10.8454 21.8292 10.896 21.8477C11.1729 21.9491 11.5511 22.0875 12.2063 22.0875H18.7937C19.5687 21.9906 19.9563 21.8937 20.2469 21.7969C20.6344 21.7 20.925 21.5062 21.2156 21.2156C21.4456 20.9857 21.5542 20.7557 21.6856 20.4777C21.7202 20.4044 21.7564 20.3277 21.7969 20.2469C21.8119 20.2019 21.8292 20.1546 21.8477 20.104C21.9491 19.8271 22.0875 19.4489 22.0875 18.7937V12.2062C21.9906 11.4312 21.8938 11.0437 21.7969 10.7531C21.7 10.3656 21.5062 10.075 21.2156 9.78437C20.9857 9.5544 20.7557 9.44575 20.4777 9.31442C20.4045 9.27983 20.3276 9.24349 20.2469 9.20312C20.2019 9.18814 20.1546 9.17083 20.104 9.15228C19.8271 9.05094 19.4489 8.9125 18.7937 8.9125ZM15.5 11.3344C13.175 11.3344 11.3344 13.175 11.3344 15.5C11.3344 17.825 13.175 19.6656 15.5 19.6656C17.825 19.6656 19.6656 17.825 19.6656 15.5C19.6656 13.175 17.825 11.3344 15.5 11.3344ZM20.7312 11.2375C20.7312 11.7725 20.2975 12.2062 19.7625 12.2062C19.2275 12.2062 18.7937 11.7725 18.7937 11.2375C18.7937 10.7025 19.2275 10.2687 19.7625 10.2687C20.2975 10.2687 20.7312 10.7025 20.7312 11.2375Z"
+                  fill="#4CE0D7"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 15.5C0 6.93959 6.93959 0 15.5 0C24.0604 0 31 6.93959 31 15.5C31 24.0604 24.0604 31 15.5 31C6.93959 31 0 24.0604 0 15.5ZM12.2063 7.45937H18.7937C19.6656 7.55625 20.2469 7.65312 20.7312 7.84687C21.3125 8.1375 21.7 8.33125 22.1844 8.81562C22.6687 9.3 22.9594 9.78437 23.1531 10.2687C23.3469 10.7531 23.5406 11.3344 23.5406 12.2062V18.7937C23.4437 19.6656 23.3469 20.2469 23.1531 20.7312C22.8625 21.3125 22.6687 21.7 22.1844 22.1844C21.7 22.6687 21.2156 22.9594 20.7312 23.1531C20.2469 23.3469 19.6656 23.5406 18.7937 23.5406H12.2063C11.3344 23.4437 10.7531 23.3469 10.2688 23.1531C9.6875 22.8625 9.3 22.6687 8.81563 22.1844C8.33125 21.7 8.04063 21.2156 7.84688 20.7312C7.65313 20.2469 7.45937 19.6656 7.45937 18.7937V12.2062C7.55625 11.3344 7.65313 10.7531 7.84688 10.2687C8.1375 9.6875 8.33125 9.3 8.81563 8.81562C9.3 8.33125 9.78438 8.04062 10.2688 7.84687C10.7531 7.65312 11.3344 7.45937 12.2063 7.45937Z"
+                  fill="#4CE0D7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="border"></div>
+      <p class="footer-paragraph">© 2023 - Lux Ventus by Zine.E.Falouti</p>
+    </main>
+  </body>
 </html>
